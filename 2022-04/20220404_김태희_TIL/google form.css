@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Noto+Sans+KR&family=Noto+Sans:ital,wght@0,300;1,200&family=Permanent+Marker&display=swap');
+* {
+    font-family: 'Noto Sans Korean';
+}
+
+fieldset{
+    border: none;
+}
+
+body,h1,h2{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+body{
+    background-color: #ebd9fc;
+}
+
+.header{
+    width: 700px;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 8px;
+    border-top: solid 13px #6d31a8; 
+    color: #2b2b2b;
+    padding-bottom: 5px;
+}
+
+.header h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px 0 10px 20px;
+}
+
+.header p{
+    margin: 20px 0 15px 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.main{  
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 20px;
+    color: #353535;
+    margin-bottom: 100px;
+}
+
+
+.box{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.box p{
+    font-size: 16px;
+    
+    font-weight: bold;
+    margin: 5px 20px 0 20px;
+    padding-top: 20px;
+}
+
+
+form{
+    margin: 20px; 
+}
+
+
+.company-form input, .company-form label, .messenger-form input, .messenger-form label{
+    margin-bottom: 15px;
+}
+
+
+
+.interview1 input{
+    border: 0px;
+    border-bottom: 1px solid #898989;
+    width: 350px;
+
+}
+
+.interview2 input{
+    border: 0px;
+    border-bottom: 1px solid #898989;
+    width: 600px;
+}
+
+.tech-form select{
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.date-form input{
+    width: 180px;
+    border: 0px;
+    border-bottom: 1px solid #898989;
+}
+
+.time-form input{
+    border: 0px;
+    width: 150px;
+
+}
+
+
+.footer{
+    overflow: hidden;
+ 
+}
+
+.submit{
+    width: 90px;
+    height: 40px;
+    background-color: #6d31a8;
+    color: white;
+    float: left;
+    
+}
+
+.reset{
+    border: 0px;
+    float: right;
+    background-color: #ebd9fc;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+
+
+

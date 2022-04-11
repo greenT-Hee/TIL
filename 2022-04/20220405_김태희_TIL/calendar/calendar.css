@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&family=Noto+Sans:ital,wght@0,300;1,200&family=Rubik+Bubbles&display=swap');
+
+
+*{
+    font-family: 'Nanum Gothic';
+}
+
+body,ul{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul{
+    list-style-type: none;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+
+.calender-wrapper{
+    width: 750px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20PX 0;
+    box-shadow: 0 1px 10px 0 rgb(198, 198, 198);
+}
+
+
+.header{
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.header h1{
+    font-family: 'Rubik Bubbles';
+    font-size: 60px;
+    float: left;
+    color: rgb(156, 2, 195);
+
+}
+
+.header-text{
+    text-align: right;
+    margin-top: 15px;
+    float: right;
+}
+
+.header-text li{
+    font-size: 13px;
+    padding: 2px;
+    
+}
+
+main{
+    margin-top: 35px;
+}
+
+table{
+    
+    display: inline;
+    margin-left: 5px;
+    
+}
+
+th,td{
+    font-size: 12px;
+    color: rgb(77, 77, 77);
+    margin: 8PX;
+
+}
+
+th{
+    background-color: rgb(237, 237, 237);
+}
+
+td{
+    background-color: rgb(236, 255, 255);
+}
+
+caption{
+    color: rgb(156, 75, 193);
+    font-weight: bold;
+    margin: 8PX;
+}
+
+.date-box{ 
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+td:nth-child(1) {
+    color:red}
+
+th:nth-child(1) {
+        color:red
+    }
+
+.october{
+    margin-top: ;
+}
